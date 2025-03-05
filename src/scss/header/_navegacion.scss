@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.navegacion{
+ 
+ &__link{
+    padding: 0.4rem;
+    color: v.$negro;
+    font-weight: 600;
+    
+    &--registrar{
+    border: 1rem solid v.$primario;
+    color: v.$blanco;
+    background-color: v.$primario;
+    padding: 0.2rem;
+    border-radius: 1rem;
+
+ }
+ }
+
+
+}
