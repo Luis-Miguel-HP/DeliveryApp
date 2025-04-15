@@ -7,12 +7,13 @@
     flex-direction: column;
     gap: 4rem;
     align-items: center;
-    padding: v.$separacion;
+    padding: v.$separacion 0;
 
     
     @include m.desktop{
         flex-direction: row;
         justify-content: space-between;
+        
     
 
  
@@ -22,6 +23,10 @@
   
     &__logo{
         width: 30rem;
+        margin-bottom: 5rem;
+        @include m.desktop{
+            margin-bottom: 0 ;
+        }
         
         
     }

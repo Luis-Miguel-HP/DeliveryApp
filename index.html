@@ -17,11 +17,258 @@
             <img src="build/img/logo.svg" alt="LOGO">
         </div>
        <nav class="navegacion">
-        <a href="#" class="navegacion__link">Iniciar Seción</a>
+        <a href="#" class="navegacion__link">Iniciar Sesión</a>
         <a href="#" class="navegacion__link">Crear Cuenta</a>
         <a href="#" class="navegacion__link navegacion__link--registrar">Registrar restaurante</a>
        </nav>
     </header>
-    
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+        
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu restaurante favorito</h2>
+                <form class="formulario__buscar" method="post">
+                    <label class="formulario__label" for="restaunt" >RESTAURANTE</label>
+                    <select class="formulario__Seleccion" name="select">
+                        <option disabled selected>--- Restaurante ---</option>
+                        <option>KFC 🍗</option>
+                        <option>PIZZA HUT 🍕</option>
+                        <option>DOMINOS PIZZA 🍕</option>
+                        <option>LA LOCANDA 🍝</option>
+                        <option>TACO BELL🌮 </option>
+                        <option>WENDYS 🍔</option>
+                    </select>
+                    <label class="formulario__label"for="plato">PLATILLO</label>
+                    <input class="formulario__input" for="plato" type="text" required placeholder="ELIJE TU MEJOR PLATILLO">                  
+                    <input class="formulario__submit" type="submit">
+                </form>
+                
+            </div>
+            <div class="formulario__imagen">
+                <img src="build/img/dibujo_repartidor.svg">
+            </div>
+
+    </section>    
+    <section class="pasos">
+        <img class="paso__wave" src="build/img/wave.svg">
+        <div class="pasos__contenido">
+            <h2 class="pasos__titulo">¿Como funciona? <span class="pasos__titulo--descripcion"> Tan facil como 1, 2 y 3</span></h2>
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="src/img/paso_1.png" alt="Paso 1">
+                </div>
+                <div class="pasos__paso">
+                    <img  class="pasos__imagen" src="src/img/paso_2.png" alt="Paso 2">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="src/img/paso_3.png" alt="Paso 3">
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="contenedor testimoniales">
+    <h2 class="testimoniales__heading">Testimoniales</h2>
+    <div class="testimoniales__grid">
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__imagen">
+                    <img src="src/img/testimonial1.jpg" alt="testimonial 1">
+                </div>
+                <div class="testimonial__informacion">
+                    <p class="testimonial__autor">Juan Pablo</p>
+                    <img class="testmonial__calificacion" src="src/img/estrellas.png">
+                </div>
+            </header>
+            <blockquote class="testimonial__texto">
+                Una excelente app, puedo seleccionar de una gran cantidad de opciones, ya sea en tarjeta o efectivo, sin ningun inconveniente.
+            </blockquote>
+        </div>
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__imagen">
+                    <img src="src/img/testimonial2.jpg" alt="testimonial 1">
+                </div>
+                <div class="testimonial__informacion">
+                    <p class="testimonial__autor">Maria Perez</p>
+                    <img class="testmonial__calificacion" src="src/img/estrellas.png">
+                </div>
+            </header>
+            <blockquote class="testimonial__texto">
+                Una excelente app, tiene multiples opciones.
+            </blockquote>
+        </div>
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__imagen">
+                    <img src="src/img/testimonial3.jpg" alt="testimonial 1">
+                </div>
+                <div class="testimonial__informacion">
+                    <p class="testimonial__autor">Jose Paredez</p>
+                    <img class="testmonial__calificacion" src="src/img/estrellas.png">
+                </div>
+            </header>
+            <blockquote class="testimonial__texto">
+                Una excelente app, puedo seleccionar de una gran cantidad de opciones, ya sea en tarjeta o efectivo, sin ningun inconveniente.
+            </blockquote>
+        </div>
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__imagen">
+                    <img src="src/img/testimonial4.jpg" alt="testimonial 1">
+                </div>
+                <div class="testimonial__informacion">
+                    <p class="testimonial__autor">Juana menendez</p>
+                    <img class="testmonial__calificacion" src="src/img/estrellas.png">
+                </div>
+            </header>
+            <blockquote class="testimonial__texto">
+                Una excelente app, puedo seleccionar de una gran cantidad de opciones, ya sea en tarjeta o efectivo, sin ningun inconveniente.
+            </blockquote>
+        </div>
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__imagen">
+                    <img src="src/img/testimonial5.jpg" alt="testimonial 1">
+                </div>
+                <div class="testimonial__informacion">
+                    <p class="testimonial__autor">Luisa Marte</p>
+                    <img class="testmonial__calificacion" src="src/img/estrellas.png">
+                </div>
+            </header>
+            <blockquote class="testimonial__texto">
+                Una excelente app, puedo seleccionar de una gran cantidad de opciones, ya sea en tarjeta o efectivo, sin ningun inconveniente.
+            </blockquote>
+        </div>
+
+    </div>  <!-- Testimoniales-->
+   </section>
+   <main class="favoritos">
+    <h2 class="favoritos__heading">Tus restaurantes favoritos</h2>
+    <!-- Heading favorito -->
+
+    <!-- Contenido Favorit -->
+    <div class="favorito__grid contenedor">
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/Dominos_pizza_logo.svg.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre"> Dominos Pizza</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/KFC_logo.svg.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre"> KFC</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/la locanda.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre">La locanda</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/Pizza_Hut_logo.svg_.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre">Pizza Hut</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/Taco_Bell_2016.svg.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre">Taco Bell</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favorito__imagen">
+                    <img src="src/img/logoRestaurantes/Wendy's_full_logo_2012.svg.png">
+                </div>
+                <div class="favorito__contenido">
+                    <img src="build/img/estrellas.png">
+                    <h3 class="favorito__nombre">Wendys</h3>
+                    <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, praesentium. Dolor ducimus consequatur veritatis natus ipsa similique quo provident reprehenderit non deserunt! Ullam mollitia, eveniet aut delectus at blanditiis repellendus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<section class="descargar">
+    <div class="descargar__grid contenedor">
+        <div class="descargar__imagen">
+            <img src="build/img/app.png" alt="DescargarImagen">
+        </div>
+        <div class="tiendas">
+            <h3 class="tiendas__heading"> Descarga la app</h3>
+            <p class="tiendas__texto">Diponisble para Android y iOS</p>
+ 
+        <div class="tiendas__grid">
+            <a href="#" class="tiendas__enlace">
+                <img src="src/img/tienda-android.svg" alt="tienda Android">
+            </a>
+            <a href="#" class="tiendas__enlace">
+                <img src="src/img/tienda-apple.svg" alt="tienda Apple">
+            </a>
+        </div>
+    </div>
+      
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__grid contenedor">
+        <div class="footer__widget">
+            <h3 class="footer__heading">Sobre Nosotros</h3>
+            <p class="footer__texto">App Delivery es tu mejor opción para encontrar y pedir comida de tus restaurantes favoritos de forma rápida y sencilla.</p>
+        </div>
+        <div class="footer__widget">
+            <h3 class="footer__heading">Enlaces Rápidos</h3>
+            <nav class="footer__nav">
+                <a href="#" class="footer__link">Iniciar Sesión</a>
+                <a href="#" class="footer__link">Crear Cuenta</a>
+                <a href="#" class="footer__link">Registrar Restaurante</a>
+            </nav>
+        </div>
+        <div class="footer__widget">
+            <h3 class="footer__heading">Síguenos</h3>
+            <nav class="footer__sociales">
+                <a href="#" class="footer__link">Facebook</a>
+                <a href="#" class="footer__link">Instagram</a>
+                <a href="#" class="footer__link">Twitter</a>
+            </nav>
+        </div>
+    </div>
+    <p class="footer__copyright">
+        &copy; 2025 App Delivery - Todos los derechos reservados
+    </p>
+</footer>
 </body>
 </html>

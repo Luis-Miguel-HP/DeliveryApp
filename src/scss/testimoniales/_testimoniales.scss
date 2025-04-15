@@ -1,0 +1,46 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+
+
+
+.testimonial{
+    background-color:  v.$secundario;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: v.$blanco;
+    border-radius: 1rem;
+
+
+    &__header{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+  
+    }
+    &__imagen{
+        overflow: hidden;
+        border-radius: 30rem;
+        flex-basis: 10rem;
+    } 
+    &__autor{
+        font-weight: 800;
+   
+    }
+    &__texto{
+        font-size: 2rem;
+        margin: 2% 0 0 0;
+        padding-left: 3rem;
+
+
+        &::before{
+            content: ' " ';
+            font-size: 2rem;
+        }
+
+    }
+
+
+}
